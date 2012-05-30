@@ -1,0 +1,28 @@
+class MouseInput extends MouseAdapter
+{
+    Input
+        - Make a class that extends MouseAdapter
+        - Use an addMouseListener() in the constructor of your class;
+
+    Graphics
+        - BufferedImage is the best image to use that gives both versatility and performance
+        - Anti-Aliasing
+            graphics2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
+                RenderingHints.VALUE_ANTIALIAS_ON);
+        - Quick copy of area
+            graphics2D.copyArea(int x, int y, int width, int height, int offsetX, offsetY);
+
+    Effect
+        - Gradients
+            Create a gradient from top left to bottom right starting with RED then grading to BLUE
+            GradientPaint gp = new GradientPaint(0f, 0f, Color.RED, getWidth(), getHeight(), Color.BLUE);
+            graphics2D.setPaint(gp);
+            graphics2D.fillRect(0, 0, getWidth(), getHeight());
+
+    Images
+        - GraphicsConfiguration.createCompatibleImage()
+        - Grabbing the DataBuffer
+
+
+
+}

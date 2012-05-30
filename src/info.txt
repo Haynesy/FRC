@@ -1,0 +1,71 @@
+Filthy Rich Clients - Page 27: setOpaque()
+
+Swing Rendering Fundamentals
+    Events
+        Event Dispatch Thread (EDT) java.awt.EventQueue
+
+    Painting
+        Add Paint request
+        Call paint() or paintComponent() on the EDT
+
+        Repaint Categories
+            Asynchronous
+                Component.repaint()
+                    -Will repaint the entire component by
+                        adding a request to the queue.
+                    - Will cause any child components to
+                        repaint as well.
+                    - Is equivalent to calling
+                        Component.repaint(0, 0, getWidth(), getHeight())
+
+                Component.repaint(int x, int y, int width, int height)
+                    - Will repaint a specific rectangle
+                        in the component.
+
+            Synchronous
+                JComponent.paintImmediately(int x, int y, int w, int h)
+                JComponent.paintImmediately(Rectangle r)
+                    - You need to be on the EDT.
+                    - Can cause undefined behaviour.
+                    - Will call paint() immediately.
+
+                Component.paint(Graphics g)
+                    - Not generally used.
+                    - Useful for some Animation techniques
+
+    Rendering
+        1. Paint request is placed onto the event queue.
+        2. Event is dispatched to the Swing RepaintManager.
+        3. RepaintManager calls paint() on the appropriate component.
+        4. Component paints its own content then its border and then
+            any child components.
+        public void paint(Graphics g){
+            paintComponent();
+            paintBorder();
+            paintChildren();
+        }
+
+        Areas of concern for creating an application
+            - JComponent.paintComponent(Graphics g) may be overridden to
+                implement custom behaviour.
+            - Component.paint(Graphics g) may be overridden to set up
+                specific graphics states.
+            - JComponent.setOpaque(boolean) may need to be called with
+                param false depending on whether the components rectangular
+                bounds are completely opaque. This will force non opaque
+                components to render correctly.
+
+    Double-Buffering
+        Swing is double buffered by default.
+        setOpaque(true)
+            - Component does not have any alpha components.
+        setOpaque(false)
+            - Component has alpha components and the background will need
+                to be drawn first.
+
+    Threading
+        Swing always creates 3 threads.
+            - The main thread. Runs your main function.
+            - The toolkit thread. Captures system events and passes them to the EDT.
+            - The Event Dispatch Thread (EDT)
+
