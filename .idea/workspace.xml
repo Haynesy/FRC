@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cab91f55-3a21-434e-8428-04f38906240b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/haynesy/filthyrichclients/JavaFramework.java" afterPath="$PROJECT_DIR$/src/haynesy/filthyrichclients/JavaFramework.java" />
-    </list>
+    <list default="true" id="cab91f55-3a21-434e-8428-04f38906240b" name="Default" comment="" />
     <ignored path="FilthyRichClients.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
