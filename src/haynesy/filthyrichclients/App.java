@@ -17,15 +17,16 @@ public class App {
         Runnable startApp = new Runnable() {
             public void run() {
 
-                //DrawImages.Start();
+            //DrawImages.Start();
 
-                //TimerTest.Start();
+            //TimerTest.Start();
+            TestTimer.Start();
             }
         };
         SwingUtilities.invokeLater(startApp);
         System.out.println("Done!");
 
-        JavaFramework.Play();
+        //JavaFramework.Play();
     }
 
     /**

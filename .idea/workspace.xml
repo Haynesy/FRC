@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cab91f55-3a21-434e-8428-04f38906240b" name="Default" comment="" />
+    <list default="true" id="cab91f55-3a21-434e-8428-04f38906240b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/haynesy/filthyrichclients/TestTimer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/haynesy/filthyrichclients/App.java" afterPath="$PROJECT_DIR$/src/haynesy/filthyrichclients/App.java" />
+    </list>
     <ignored path="FilthyRichClients.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,25 +65,27 @@
       <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+            <state line="22" column="24" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaFramework.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestTimer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/TestTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="12" selection-start="720" selection-end="720" vertical-scroll-proportion="0.14623338">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaFramework.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/JavaFramework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.82422453">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/TimerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="16" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
+            <state line="54" column="48" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/info.txt" />
         <option value="$PROJECT_DIR$/src/haynesy/filthyrichclients/FreezeEDT.java" />
         <option value="$PROJECT_DIR$/src/haynesy/filthyrichclients/SafeComponent.java" />
         <option value="$PROJECT_DIR$/src/haynesy/filthyrichclients/ImageLoadingWorker.java" />
@@ -175,8 +180,9 @@
         <option value="$PROJECT_DIR$/src/snippets.txt" />
         <option value="$PROJECT_DIR$/src/haynesy/filthyrichclients/DrawImages.java" />
         <option value="$PROJECT_DIR$/src/haynesy/filthyrichclients/TimerTest.java" />
-        <option value="$PROJECT_DIR$/src/haynesy/filthyrichclients/App.java" />
         <option value="$PROJECT_DIR$/src/haynesy/filthyrichclients/JavaFramework.java" />
+        <option value="$PROJECT_DIR$/src/haynesy/filthyrichclients/App.java" />
+        <option value="$PROJECT_DIR$/src/haynesy/filthyrichclients/TestTimer.java" />
       </list>
     </option>
   </component>
@@ -212,16 +218,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -232,6 +228,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="FilthyRichClients" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -457,13 +463,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4900133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3953168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -472,7 +478,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18188354" sideWeight="0.5096419" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18188354" sideWeight="0.6046832" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.422865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -542,11 +548,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/TranslucentButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="56" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/GenerateDonuts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="8" selection-start="3115" selection-end="3115" vertical-scroll-proportion="0.0" />
@@ -572,14 +573,19 @@
         <state line="21" column="7" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/TimerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="16" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/JavaFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="48" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/snippets.txt">
@@ -617,10 +623,12 @@
         <state line="15" column="21" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/JavaFramework.java">
+    <entry file="file://$PROJECT_DIR$/src/haynesy/filthyrichclients/TestTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.82422453">
-          <folding />
+        <state line="26" column="12" selection-start="720" selection-end="720" vertical-scroll-proportion="0.14623338">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
